@@ -2,7 +2,6 @@ nextflow.enable.dsl=2
 
 process getChainFile {
     storeDir params.chain_cache_dir
-    conda "${projectDir}/env/environment.yml"
 
     output:
     path "*.chain.gz"
@@ -18,7 +17,6 @@ process getChainFile {
 
 process liftOver {
     publishDir params.out_dir, mode: "copy"
-    conda "${projectDir}/env/environment.yml"
 
     input:
     path chainfile
