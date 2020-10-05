@@ -1,6 +1,6 @@
 LOCAL_IMAGE := liftover-nf
 REMOTE_IMAGE := oalmelid/${LOCAL_IMAGE}
-TAG := latest
+TAG := 0.1.0
 .DEFAULT_GOAL := image
 
 .PHONY: image publish
