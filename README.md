@@ -24,3 +24,7 @@ Currently, lift-over-nf takes the following configuration parameters:
 | to | `""` | Reference genome to be output (e.g. `"hg38"`) | 
 | chain_cache_dir | `"${launchDir}/chain_files/"` | Cache directory for chain files | 
 | out_dir | `"${launchDir}/output/"` | Directory to store processed files in |
+
+## Licensing
+
+The pipeline is licensed under the MIT license. See [License.md](License.md) for terms.
