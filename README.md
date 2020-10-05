@@ -7,7 +7,7 @@ Chain files are automatically downloaded by the pipeline, and are stored in a pe
 The pipeline is run using [Nextflow](https://www.nextflow.io/), which will need to be installed prior to use. To run the pipeline, use the command
 
 ```bash
-nextflow run oalmelid/lift-over-nf --from <start-genome> --to <end-genome> --bed_list <file with list of bedfiles to process> -profile <docker|singularity|conda>
+nextflow run oalmelid/lift-over-nf -r 0.1.0 --from <start-genome> --to <end-genome> --bed_list <file with list of bedfiles to process> -profile <docker|singularity|conda>
 ```
 
 The pipeline can be run either on the base system if the ucsc liftOver tool is already installed, or using one of the configuration profiles for docker, singularity or conda. 
