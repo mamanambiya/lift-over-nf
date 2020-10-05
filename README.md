@@ -27,4 +27,4 @@ Currently, lift-over-nf takes the following configuration parameters:
 
 ## Licensing
 
-The pipeline is licensed under the MIT license. See [License.md](License.md) for terms.
+The pipeline is licensed under the MIT license. See [LICENSE](LICENSE) for terms.
